@@ -14,36 +14,35 @@
 </head>
 
 <body>
-
-
-    <!--Navbar-->
     <div class="up">
         <a href="#carouselExampleCaptions"><button><i class="fas fa-chevron-up"></i></button></a>
     </div>
+
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img id="logo-nav" src="img/logo.png" alt="" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span><i class="fad fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" id="nav-content">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +65,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="im1"></div>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h1 class="display-2">Bootstrap</h1>
                     <h3>Complete Website Layout</h3>
                     <button type="button" class="btn btn-outline-light btn-lg"> View Demo</button>
@@ -101,7 +100,7 @@
 
     <!--Welcome section-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="about">
         <div class="row welcome text-center">
             <div class="col-12">
                 <h1 class="display-4">
@@ -120,7 +119,7 @@
     <!--Three column section-->
 
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="services">
         <div class="row text-center padding">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-code"></i>
@@ -145,7 +144,7 @@
     <!--Two column section-->
     <div class="container padding">
         <div class="row padding">
-            <div class="col-md-12 col-lg-6 padding">
+            <div class="col-md-12 col-lg-6 padding build">
                 <h2>If you build it...</h2>
                 <p>The column will automatically stack on top of each other when the screen is less than 567px wide.</p>
                 <p>Resize the browser window to see the effect of Responsive web design has became more important as the
@@ -153,8 +152,8 @@
                 <p>It can also display the web page differently depending on the screen size or viewing device</p>
                 <a href="#" class="btn btn-primary btn-lg">Learn more</a>
             </div>
-            <div class="col-lg-6 padding ">
-                    <img src="img/two col.jpg" class="mt-3" alt="">
+            <div class="col-lg-6 padding">
+                    <img src="img/two col.jpg" class="img-fluid image mt-3" alt="">
             </div>
         </div>
     </div>
@@ -181,7 +180,7 @@
 
     <!--Card-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="team">
         <div class="row padding">
             <div class="col-md-4 padding">
                 <div class="card">
@@ -238,7 +237,7 @@
 
     <!--Connect-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="contact">
         <div class="row text-center padding">
             <div class="col-12">
                 <h2>Connect</h2>
