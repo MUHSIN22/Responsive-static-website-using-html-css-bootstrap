@@ -142,9 +142,27 @@ h1{
 
 
 
+footer{
+    background-color: #222;
+    color: #e2e1e1;
+}
+
+
 /*Media queries*/
-@media (max-width: 2000px){
-    
+@media (min-width: 1200px){
+    .img-fluid {
+        max-width: 100%;
+        height: 50%;
+        margin-left: 16rem;
+        margin-top: 1em;
+    }
+    .philosophy{
+        max-height: 50%;
+    }
+    .h2, h2 {
+        font-size: 2rem;
+        margin-top: 5%;
+    }
 }
 @media (max-width: 768px){
 
