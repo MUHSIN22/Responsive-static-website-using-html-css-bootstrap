@@ -1,3 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+.up{
+    position: fixed;
+    top: 50%;
+    z-index: 1;
+}
+.up button{
+    border-radius: .5rem;
+    border: 0;
+    background-color: aqua;
+}
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li{
+    padding-right: 1.2rem;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner .im1{
+    background-image: url(img/b3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+.carousel-inner .im2{
+    background-image: url(img/b1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+.carousel-inner .im3{
+    background-image: url(img/b2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #7c6b6b;
+    padding-bottom: 1rem;
+}
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.jumbotron{
+    padding: 3rem;
+    border-radius: 0%;
+    background-color: #f6f0f0;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 3px solid #b4b4b4;
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fa-code{
+    color: #e54d26;
+
+}
+.fa-bold{
+    color: #563d7c;
+}
+.fa-css3{
+    color: #2163af;
+}
+.fa-code,.fa-bold,.fa-css3{
+    font-size: 4em;
+    margin: 1rem;
+
+}
+figure{
+    background-image: url(img/boot.png);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-attachment: fixed;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: .3rem;
+    background-size: cover;
+}
+
+
+
 #logo-nav{
     width: 30px;
     height: 30px;   
@@ -5,11 +128,35 @@
 #nav-content{
     margin-left: auto;
 }
-#bg-carousel{
-    height: 100vh;
-    justify-content: center;
-}
 #logo-footer{
     width: 30px;
     height: 30px;   
+}
+h1{
+    font-weight: 600;
+}
+.card{
+    height: 100%;
+    margin-top: 1rem;
+}
+
+
+
+/*Media queries*/
+@media (max-width: 2000px){
+    
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
+
+.carousel-item{
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
 }
