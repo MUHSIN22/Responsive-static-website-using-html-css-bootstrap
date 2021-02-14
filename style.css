@@ -5,3 +5,7 @@
 #nav-content{
     margin-left: auto;
 }
+#bg-carousel{
+    height: 100vh;
+    justify-content: center;
+}
